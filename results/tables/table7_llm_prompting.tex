@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Qwen2.5-1.5B-Instruct prompting, macro-F1 on unmasked test sets (unparseable outputs counted wrong); in parentheses: F1 on parseable outputs only; below: unparseable-output rate. Greedy decoding, one run (seed 13).}
+\label{tab:llm}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccc}
+\toprule
+Setting & DepSign & DSD-3 & DSD-3m & RDC \\
+\midrule
+zero-shot & \shortstack{0.211 (0.211)\\[-1pt]\tiny unp.\ 0.0\%} & \shortstack{0.207 (0.207)\\[-1pt]\tiny unp.\ 0.0\%} & \shortstack{0.173 (0.173)\\[-1pt]\tiny unp.\ 0.0\%} & \shortstack{0.665 (0.665)\\[-1pt]\tiny unp.\ 0.0\%} \\
+5-shot (shots: DepSign) & \shortstack{0.210 (0.210)\\[-1pt]\tiny unp.\ 0.0\%} & \shortstack{0.358 (0.358)\\[-1pt]\tiny unp.\ 0.0\%} & \shortstack{0.341 (0.341)\\[-1pt]\tiny unp.\ 0.0\%} & \shortstack{0.878 (0.878)\\[-1pt]\tiny unp.\ 0.0\%} \\
+5-shot (shots: DSD-3) & \shortstack{0.226 (0.226)\\[-1pt]\tiny unp.\ 0.0\%} & \shortstack{0.346 (0.346)\\[-1pt]\tiny unp.\ 0.0\%} & \shortstack{0.306 (0.306)\\[-1pt]\tiny unp.\ 0.0\%} & \shortstack{0.844 (0.844)\\[-1pt]\tiny unp.\ 0.0\%} \\
+\bottomrule
+\end{tabular}
+\end{table}

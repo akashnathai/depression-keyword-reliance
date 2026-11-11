@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering
+\caption{Posts per split and class after cleaning and deduplication, and mean length in words. DSD-3 maps minimum/mild+moderate/severe and DSD-3m maps minimum+mild/moderate/severe onto the three classes (same texts). RDC is test-only and binary (not depressed/depressed).}\label{tab:data}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{llrrrrr}
+\toprule
+Dataset & Split & $N$ & none & moderate & severe & words \\
+\midrule
+DepSign & train & 5,853 & 2,198 & 3,023 & 632 & 166 \\
+ & dev & 840 & 336 & 436 & 68 & 172 \\
+ & test & 3,178 & 812 & 2,139 & 227 & 170 \\
+\addlinespace[2pt]
+DSD-3 & train & 2,458 & 1,784 & 477 & 197 & 86 \\
+ & dev & 355 & 258 & 69 & 28 & 85 \\
+ & test & 708 & 516 & 136 & 56 & 85 \\
+\addlinespace[2pt]
+DSD-3m & train & 2,458 & 1,987 & 274 & 197 & 86 \\
+ & dev & 355 & 287 & 40 & 28 & 85 \\
+ & test & 708 & 574 & 78 & 56 & 85 \\
+\addlinespace[2pt]
+RDC (binary) & test & 7,248 & 3,587 & 3,661 & -- & 77 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

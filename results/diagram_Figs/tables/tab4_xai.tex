@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{Faithfulness and attribution ratios for MentalRoBERTa on 300 DepSign test posts (100 per class), explaining the predicted class. AOPC averages the probability drop over $k\in\{1,5,10,20,50\}\%$ of words (comprehensiveness: top words deleted, higher is better; sufficiency: only top words kept, lower is better). Random: mean of five random rankings. Ratio: share of positive attribution $\div$ share of words (1 = proportional). Bootstrap 95\% CIs over posts.}\label{tab:xai}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{llcccc}
+\toprule
+Model & Explainer & Compr.\ AOPC $\uparrow$ & Suff.\ AOPC $\downarrow$ & Topic ratio & Symptom ratio \\
+\midrule
+orig-trained & IG & 0.171 \tiny[0.149, 0.192] & 0.040 \tiny[0.026, 0.054] & 6.42 \tiny[5.39, 7.52] & 0.83 \tiny[0.58, 1.13] \\
+ & SHAP & 0.185 \tiny[0.165, 0.205] & -0.000 \tiny[-0.015, 0.014] & 7.53 \tiny[6.31, 8.91] & 1.62 \tiny[1.23, 2.05] \\
+ & LIME & 0.218 \tiny[0.198, 0.238] & -0.007 \tiny[-0.022, 0.009] & 7.34 \tiny[6.19, 8.53] & 1.57 \tiny[1.27, 1.97] \\
+ & Random & 0.028 \tiny[0.022, 0.034] & 0.212 \tiny[0.190, 0.237] & -- & -- \\
+\addlinespace[2pt]
+mask-topic-trained & IG & 0.160 \tiny[0.139, 0.182] & 0.128 \tiny[0.107, 0.149] & 4.07 \tiny[3.39, 4.90] & 1.16 \tiny[0.86, 1.40] \\
+ & SHAP & 0.217 \tiny[0.198, 0.238] & 0.043 \tiny[0.023, 0.060] & 6.51 \tiny[5.52, 7.72] & 1.39 \tiny[1.06, 1.82] \\
+ & LIME & 0.257 \tiny[0.238, 0.277] & 0.018 \tiny[-0.001, 0.037] & 5.67 \tiny[4.85, 6.60] & 1.41 \tiny[1.12, 1.81] \\
+ & Random & 0.026 \tiny[0.020, 0.033] & 0.275 \tiny[0.246, 0.302] & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

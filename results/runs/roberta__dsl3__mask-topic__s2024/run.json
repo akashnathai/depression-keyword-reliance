@@ -1,0 +1,55 @@
+{
+ "run_id": "roberta__dsl3__mask-topic__s2024",
+ "model_name": "roberta-base",
+ "seed": 2024,
+ "best_epoch": 4,
+ "val_macro_f1": 0.6051466116878212,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 1.0305126588065903,
+   "val_macro_f1": 0.43921788958397645,
+   "seconds": 24.2
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.834379877435503,
+   "val_macro_f1": 0.5520946557971015,
+   "seconds": 24.2
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.6227145751623752,
+   "val_macro_f1": 0.6044238750190122,
+   "seconds": 23.6
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.48188583951975617,
+   "val_macro_f1": 0.6051466116878212,
+   "seconds": 24.3
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.3327060947466835,
+   "val_macro_f1": 0.5788897436670991,
+   "seconds": 24.1
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.22539227035852125,
+   "val_macro_f1": 0.5529996652773383,
+   "seconds": 24.1
+  }
+ ],
+ "train_seconds": 173.6,
+ "eval_seconds": 60.8,
+ "peak_vram_gb": 3.27,
+ "class_weights": [
+  0.21745623648166656,
+  0.8132954239845276,
+  1.9692482948303223
+ ],
+ "n_train": 2458,
+ "kept_model": false
+}

@@ -1,0 +1,13 @@
+model,run_id,shots_from,test_set,macro_f1,unparseable_rate,macro_f1_parsed_only,pred_share_c0
+qwen-zs,qwen-zs__none__orig__s13,none,depsign,0.2106,0.0000,0.2106,0.0160
+qwen-zs,qwen-zs__none__orig__s13,none,dsl3,0.2068,0.0000,0.2068,0.0494
+qwen-zs,qwen-zs__none__orig__s13,none,dsl3m,0.1732,0.0000,0.1732,0.0494
+qwen-zs,qwen-zs__none__orig__s13,none,rdc,0.6647,0.0000,0.6647,0.2321
+qwen-fs,qwen-fs__depsign__orig__s13,depsign,depsign,0.2096,0.0000,0.2096,0.1152
+qwen-fs,qwen-fs__depsign__orig__s13,depsign,dsl3,0.3578,0.0000,0.3578,0.4082
+qwen-fs,qwen-fs__depsign__orig__s13,depsign,dsl3m,0.3406,0.0000,0.3406,0.4082
+qwen-fs,qwen-fs__depsign__orig__s13,depsign,rdc,0.8779,0.0000,0.8779,0.5421
+qwen-fs,qwen-fs__dsl3__orig__s13,dsl3,depsign,0.2256,0.0000,0.2256,0.0957
+qwen-fs,qwen-fs__dsl3__orig__s13,dsl3,dsl3,0.3463,0.0000,0.3463,0.2994
+qwen-fs,qwen-fs__dsl3__orig__s13,dsl3,dsl3m,0.3060,0.0000,0.3060,0.2994
+qwen-fs,qwen-fs__dsl3__orig__s13,dsl3,rdc,0.8442,0.0000,0.8442,0.4892

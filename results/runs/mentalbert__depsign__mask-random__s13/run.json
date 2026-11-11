@@ -1,0 +1,43 @@
+{
+ "run_id": "mentalbert__depsign__mask-random__s13",
+ "model_name": "mental/mental-bert-base-uncased",
+ "seed": 13,
+ "best_epoch": 2,
+ "val_macro_f1": 0.6034169770794664,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.9347935082808219,
+   "val_macro_f1": 0.5955489047241209,
+   "seconds": 106.1
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.7423460736178635,
+   "val_macro_f1": 0.6034169770794664,
+   "seconds": 107.0
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.567740909653446,
+   "val_macro_f1": 0.5931638215680798,
+   "seconds": 105.1
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.38805621454003647,
+   "val_macro_f1": 0.5979365079365079,
+   "seconds": 105.9
+  }
+ ],
+ "train_seconds": 438.4,
+ "eval_seconds": 65.6,
+ "peak_vram_gb": 3.54,
+ "class_weights": [
+  0.5763754844665527,
+  0.41907817125320435,
+  2.0045464038848877
+ ],
+ "n_train": 5853,
+ "kept_model": false
+}

@@ -1,0 +1,66 @@
+{
+ "run_id": "tfidf-lr__dsl3__mask-topic+sui__s42",
+ "C": 0.3,
+ "val_macro_f1": 0.5351383027146779,
+ "val_scores": {
+  "0.3": 0.5351383027146779,
+  "1.0": 0.5333408380237649,
+  "3.0": 0.5126828003676932,
+  "10.0": 0.5072751585739733
+ },
+ "fit_seconds": 5.0,
+ "total_seconds": 32.9,
+ "top_features": {
+  "0": [
+   "her",
+   "we",
+   "you",
+   "she",
+   "he",
+   " her",
+   "us",
+   "your",
+   " her ",
+   " you",
+   " yo",
+   "her",
+   "you",
+   "url",
+   " you "
+  ],
+  "1": [
+   "anxiety",
+   "sleep",
+   "crying",
+   "when",
+   "cry",
+   " cry",
+   "cry",
+   " cr",
+   "kw",
+   "my",
+   "nxi",
+   "anxi",
+   "anx",
+   "scared",
+   "so much"
+  ],
+  "2": [
+   "what to",
+   "to do",
+   "feel",
+   "feel like",
+   "know what",
+   "do",
+   "don know",
+   " feel",
+   "feel",
+   " fee",
+   "fee",
+   "eel",
+   "what",
+   "feel ",
+   "eel "
+  ]
+ }
+}

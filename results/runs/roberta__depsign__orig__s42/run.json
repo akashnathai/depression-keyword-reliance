@@ -1,0 +1,43 @@
+{
+ "run_id": "roberta__depsign__orig__s42",
+ "model_name": "roberta-base",
+ "seed": 42,
+ "best_epoch": 2,
+ "val_macro_f1": 0.6145432698915971,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.9690781107650754,
+   "val_macro_f1": 0.599603320725301,
+   "seconds": 109.9
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.8038831355019671,
+   "val_macro_f1": 0.6145432698915971,
+   "seconds": 110.0
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.6791772395779526,
+   "val_macro_f1": 0.6066959192528921,
+   "seconds": 109.1
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.529753441041936,
+   "val_macro_f1": 0.6034622683562606,
+   "seconds": 109.6
+  }
+ ],
+ "train_seconds": 455.3,
+ "eval_seconds": 59.0,
+ "peak_vram_gb": 3.75,
+ "class_weights": [
+  0.5763754844665527,
+  0.41907817125320435,
+  2.0045464038848877
+ ],
+ "n_train": 5853,
+ "kept_model": false
+}

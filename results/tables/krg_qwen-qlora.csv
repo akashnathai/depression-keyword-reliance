@@ -1,0 +1,9 @@
+model,train_set,test_set,mask-random,mask-topic,mask-topic+sui,orig,drop_topic,drop_topic_sui,drop_random,KRG
+qwen-qlora,depsign,depsign,0.5493,0.5130,0.5002,0.5457,0.0327,0.0455,-0.0036,0.0363
+qwen-qlora,depsign,dsl3,0.4315,0.4314,0.4317,0.4278,-0.0036,-0.0039,-0.0037,0.0002
+qwen-qlora,depsign,dsl3m,0.4119,0.4173,0.4177,0.4048,-0.0125,-0.0129,-0.0071,-0.0054
+qwen-qlora,depsign,rdc,0.7385,0.7001,0.6897,0.7394,0.0393,0.0497,0.0009,0.0383
+qwen-qlora,dsl3,depsign,0.3184,0.3087,0.3224,0.3205,0.0118,-0.0019,0.0021,0.0097
+qwen-qlora,dsl3,dsl3,0.5630,0.5618,0.5424,0.5690,0.0072,0.0266,0.0061,0.0012
+qwen-qlora,dsl3,dsl3m,0.5222,0.5261,0.5073,0.5262,0.0001,0.0189,0.0040,-0.0039
+qwen-qlora,dsl3,rdc,0.8105,0.7814,0.7737,0.8152,0.0338,0.0415,0.0047,0.0291

@@ -1,0 +1,43 @@
+{
+ "run_id": "mentalroberta__depsign__mask-topic__s42",
+ "model_name": "mental/mental-roberta-base",
+ "seed": 42,
+ "best_epoch": 2,
+ "val_macro_f1": 0.6317154673283705,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.9546170556317262,
+   "val_macro_f1": 0.624365263429147,
+   "seconds": 110.9
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.7704401497266006,
+   "val_macro_f1": 0.6317154673283705,
+   "seconds": 111.1
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.6210205687281213,
+   "val_macro_f1": 0.6007370234518753,
+   "seconds": 110.8
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.4779830548729076,
+   "val_macro_f1": 0.5875982560541578,
+   "seconds": 111.4
+  }
+ ],
+ "train_seconds": 459.4,
+ "eval_seconds": 61.1,
+ "peak_vram_gb": 3.76,
+ "class_weights": [
+  0.5763754844665527,
+  0.41907817125320435,
+  2.0045464038848877
+ ],
+ "n_train": 5853,
+ "kept_model": true
+}

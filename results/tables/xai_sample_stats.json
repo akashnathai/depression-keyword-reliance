@@ -1,0 +1,14 @@
+{
+ "orig": {
+  "n": 300,
+  "acc": 0.6033333333333334,
+  "truncated_share": 0.09,
+  "ig_delta_median": 0.020720988512039185
+ },
+ "mask-topic": {
+  "n": 300,
+  "acc": 0.5833333333333334,
+  "truncated_share": 0.09,
+  "ig_delta_median": 0.0660565197467804
+ }
+}

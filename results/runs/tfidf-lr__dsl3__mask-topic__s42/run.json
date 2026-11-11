@@ -1,0 +1,66 @@
+{
+ "run_id": "tfidf-lr__dsl3__mask-topic__s42",
+ "C": 1.0,
+ "val_macro_f1": 0.5347317515341004,
+ "val_scores": {
+  "0.3": 0.5309067939527207,
+  "1.0": 0.5347317515341004,
+  "3.0": 0.5296150718351856,
+  "10.0": 0.5100847019624963
+ },
+ "fit_seconds": 5.3,
+ "total_seconds": 32.5,
+ "top_features": {
+  "0": [
+   "her",
+   "you",
+   "he",
+   "we",
+   "she",
+   " her",
+   "us",
+   "her",
+   " her ",
+   "years",
+   "your",
+   " you",
+   " yo",
+   "were",
+   "port"
+  ],
+  "1": [
+   "kw",
+   "cry",
+   "crying",
+   " cry",
+   "cry",
+   "sleep",
+   "when",
+   " cr",
+   "anxiety",
+   "so much",
+   "scared",
+   "tired",
+   "at",
+   "my",
+   "pain"
+  ],
+  "2": [
+   "what to",
+   "to do",
+   "feel",
+   "suicide",
+   "feel like",
+   "know what",
+   "do",
+   "die",
+   "don know",
+   " feel",
+   "feel",
+   " fee",
+   "fee",
+   "uici",
+   "uicid"
+  ]
+ }
+}

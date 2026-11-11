@@ -1,0 +1,49 @@
+{
+ "run_id": "roberta__dsl3__mask-topic+sui__s42",
+ "model_name": "roberta-base",
+ "seed": 42,
+ "best_epoch": 3,
+ "val_macro_f1": 0.5739663392205765,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 1.0232646385231963,
+   "val_macro_f1": 0.4571166902635846,
+   "seconds": 24.1
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.8760398051084636,
+   "val_macro_f1": 0.45706804869490103,
+   "seconds": 24.4
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.7232556308486632,
+   "val_macro_f1": 0.5739663392205765,
+   "seconds": 24.0
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.5455514471856998,
+   "val_macro_f1": 0.5630451248383851,
+   "seconds": 24.3
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.4031910864128308,
+   "val_macro_f1": 0.5667129673978989,
+   "seconds": 24.1
+  }
+ ],
+ "train_seconds": 147.1,
+ "eval_seconds": 61.5,
+ "peak_vram_gb": 3.26,
+ "class_weights": [
+  0.21745623648166656,
+  0.8132954239845276,
+  1.9692482948303223
+ ],
+ "n_train": 2458,
+ "kept_model": false
+}

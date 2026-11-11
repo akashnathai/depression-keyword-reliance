@@ -1,0 +1,66 @@
+{
+ "run_id": "tfidf-lr__dsl3__orig__s2024",
+ "C": 0.3,
+ "val_macro_f1": 0.5320704225935279,
+ "val_scores": {
+  "0.3": 0.5320704225935279,
+  "1.0": 0.5223528907739433,
+  "3.0": 0.5257711190873837,
+  "10.0": 0.49147719288384245
+ },
+ "fit_seconds": 5.0,
+ "total_seconds": 32.8,
+ "top_features": {
+  "0": [
+   "her",
+   "we",
+   "you",
+   "she",
+   "he",
+   " her",
+   "us",
+   "your",
+   " her ",
+   " you",
+   " yo",
+   "you",
+   "url",
+   "her",
+   " you "
+  ],
+  "1": [
+   "anxiety",
+   "sleep",
+   "crying",
+   "cry",
+   "when",
+   " cry",
+   "cry",
+   "depression",
+   " cr",
+   "ress",
+   "epr",
+   "my",
+   "scared",
+   "depr",
+   "res"
+  ],
+  "2": [
+   "what to",
+   "to do",
+   "feel",
+   "feel like",
+   "suicide",
+   "know what",
+   "do",
+   "don know",
+   " feel",
+   "feel",
+   " fee",
+   "fee",
+   "what",
+   "eel",
+   "myself"
+  ]
+ }
+}

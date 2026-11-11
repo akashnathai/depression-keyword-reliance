@@ -1,0 +1,9 @@
+model_A,model_B,train_set,test_set,KRG_A,KRG_B,diff_A_minus_B,ci_lo,ci_hi,ci_excludes_0
+mentalroberta,roberta,depsign,depsign,0.0372,0.0578,-0.0206,-0.0364,-0.0065,True
+mentalroberta,roberta,depsign,rdc,0.0274,0.0240,0.0034,0.0003,0.0067,True
+mentalroberta,roberta,dsl3,dsl3,0.0070,0.0068,0.0002,-0.0089,0.0094,False
+mentalroberta,roberta,dsl3,rdc,0.0525,0.0499,0.0026,-0.0004,0.0058,False
+mentalbert,bert,depsign,depsign,0.0351,0.0466,-0.0115,-0.0241,0.0013,False
+mentalbert,bert,depsign,rdc,0.0376,0.0309,0.0067,0.0037,0.0098,True
+mentalbert,bert,dsl3,dsl3,0.0089,0.0100,-0.0011,-0.0113,0.0089,False
+mentalbert,bert,dsl3,rdc,0.0407,0.0458,-0.0051,-0.0087,-0.0015,True

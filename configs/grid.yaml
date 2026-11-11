@@ -1,0 +1,8 @@
+# Experiment grid
+seeds: [13, 42, 2024]
+train_sets: [depsign, dsl3]
+train_conditions: [orig, mask-topic, mask-topic+sui, mask-random]
+test_sets: [depsign, dsl3, dsl3m, rdc]
+test_conditions: [orig, mask-topic, mask-topic+sui, mask-random]
+bootstrap: {n: 1000, seed: 0, ci: 0.95}
+ece_bins: 15

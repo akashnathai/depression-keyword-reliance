@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Share of positive attribution per word group (mean over 300 posts). Norm.: share divided by the group's share of words (1 = proportional). Share of words in each group: topic 1.1\%, suicide 0.7\%, symptom 1.2\%. PRIMATE construct validity not computed (dataset access pending).}
+\label{tab:mass}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llcccccc}
+\toprule
+Model & Explainer & Topic & Suicide & Symptom & Other & Topic (norm.) & Symptom (norm.) \\
+\midrule
+MentalRoBERTa (orig) & Integrated Gradients & 0.068 & 0.014 & 0.010 & 0.908 & 6.41 & 0.83 \\
+ & Partition SHAP & 0.080 & 0.020 & 0.019 & 0.882 & 7.53 & 1.62 \\
+ & LIME & 0.078 & 0.024 & 0.018 & 0.880 & 7.34 & 1.57 \\
+\addlinespace[2pt]
+MentalRoBERTa (mask-topic) & Integrated Gradients & 0.043 & 0.015 & 0.014 & 0.928 & 4.07 & 1.16 \\
+ & Partition SHAP & 0.069 & 0.025 & 0.016 & 0.890 & 6.51 & 1.39 \\
+ & LIME & 0.060 & 0.029 & 0.017 & 0.895 & 5.67 & 1.41 \\
+\addlinespace[2pt]
+\bottomrule
+\end{tabular}
+\end{table}

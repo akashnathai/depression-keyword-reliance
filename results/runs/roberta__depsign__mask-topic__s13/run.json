@@ -1,0 +1,37 @@
+{
+ "run_id": "roberta__depsign__mask-topic__s13",
+ "model_name": "roberta-base",
+ "seed": 13,
+ "best_epoch": 1,
+ "val_macro_f1": 0.6062527582282303,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.9951142601139559,
+   "val_macro_f1": 0.6062527582282303,
+   "seconds": 109.1
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.8101186217343221,
+   "val_macro_f1": 0.5655056807227629,
+   "seconds": 110.6
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.6985669342465088,
+   "val_macro_f1": 0.5730397095775247,
+   "seconds": 108.2
+  }
+ ],
+ "train_seconds": 342.2,
+ "eval_seconds": 59.8,
+ "peak_vram_gb": 3.75,
+ "class_weights": [
+  0.5763754844665527,
+  0.41907817125320435,
+  2.0045464038848877
+ ],
+ "n_train": 5853,
+ "kept_model": false
+}

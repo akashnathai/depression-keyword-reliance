@@ -1,0 +1,37 @@
+{
+ "run_id": "qwen-qlora__depsign__mask-topic__s13",
+ "model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+ "seed": 13,
+ "best_epoch": 2,
+ "val_macro_f1": 0.6271738726484862,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 1.0188423692874733,
+   "val_macro_f1": 0.600067651749609,
+   "seconds": 1645.6
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.714310222737939,
+   "val_macro_f1": 0.6271738726484862,
+   "seconds": 1670.3
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.3859447359970689,
+   "val_macro_f1": 0.618762964716722,
+   "seconds": 1627.2
+  }
+ ],
+ "train_seconds": 5002.6,
+ "eval_seconds": 1341.2,
+ "peak_vram_gb": 3.36,
+ "class_weights": [
+  0.5763754844665527,
+  0.41907817125320435,
+  2.0045464038848877
+ ],
+ "n_train": 5853,
+ "kept_model": false
+}

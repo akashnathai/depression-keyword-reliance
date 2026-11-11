@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\caption{In-domain macro-F1 on the \texttt{orig} test set by training condition (mean $\pm$ s.d.\ over three seeds; TF-IDF+LR is deterministic). Bold: best training condition per model and dataset. $^{\dagger}$Single run. Qwen-ZS and Qwen-FS are prompted (no training); Qwen-FS uses five examples from the training split of the same dataset. Bootstrap CIs and \texttt{mask-topic+sui} results are in the supplement.}\label{tab:indomain}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lcccccc}
+\toprule
+ & \multicolumn{3}{c}{DepSign} & \multicolumn{3}{c}{DSD-3} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Model & \texttt{orig} & \texttt{mask-topic} & \texttt{mask-random} & \texttt{orig} & \texttt{mask-topic} & \texttt{mask-random} \\
+\midrule
+TF-IDF+LR & 0.504 & 0.477 & \textbf{0.520} & \textbf{0.573} & 0.571 & 0.572 \\
+BERT & \textbf{0.525}\,$\pm$\,0.018 & 0.496\,$\pm$\,0.052 & 0.513\,$\pm$\,0.047 & \textbf{0.612}\,$\pm$\,0.015 & 0.595\,$\pm$\,0.015 & 0.610\,$\pm$\,0.006 \\
+RoBERTa & 0.529\,$\pm$\,0.022 & 0.524\,$\pm$\,0.032 & \textbf{0.549}\,$\pm$\,0.010 & \textbf{0.631}\,$\pm$\,0.016 & 0.608\,$\pm$\,0.021 & 0.628\,$\pm$\,0.010 \\
+MentalBERT & 0.539\,$\pm$\,0.008 & 0.533\,$\pm$\,0.003 & \textbf{0.546}\,$\pm$\,0.013 & \textbf{0.617}\,$\pm$\,0.007 & 0.605\,$\pm$\,0.004 & 0.612\,$\pm$\,0.019 \\
+MentalRoBERTa & 0.557\,$\pm$\,0.004 & 0.548\,$\pm$\,0.031 & \textbf{0.565}\,$\pm$\,0.006 & 0.615\,$\pm$\,0.006 & 0.634\,$\pm$\,0.012 & \textbf{0.637}\,$\pm$\,0.017 \\
+Qwen-QLoRA & 0.546$^{\dagger}$ & \textbf{0.549}$^{\dagger}$ & -- & \textbf{0.569}$^{\dagger}$ & 0.568$^{\dagger}$ & -- \\
+\midrule
+Qwen-ZS & 0.211$^{\dagger}$ & -- & -- & 0.207$^{\dagger}$ & -- & -- \\
+Qwen-FS & 0.210$^{\dagger}$ & -- & -- & 0.346$^{\dagger}$ & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

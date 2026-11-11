@@ -1,0 +1,7 @@
+method,group,diff_masktopic_minus_orig,lo,hi,n
+ig,topic,-0.0248,-0.0357,-0.0155,300
+shap,topic,-0.0108,-0.0204,-0.0015,300
+lime,topic,-0.0177,-0.0272,-0.0089,300
+ig,symptom,0.0039,-0.0012,0.0119,300
+shap,symptom,-0.0027,-0.0070,0.0007,300
+lime,symptom,-0.0018,-0.0059,0.0016,300

@@ -1,0 +1,10 @@
+model: tfidf-lr
+word_ngrams: [1, 2]
+word_min_df: 2
+char_ngrams: [3, 5]
+char_min_df: 3
+max_features_word: 100000
+max_features_char: 200000
+C_grid: [0.3, 1.0, 3.0, 10.0]   # tuned on validation macro-F1
+class_weight: balanced
+max_iter: 2000

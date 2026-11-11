@@ -1,0 +1,55 @@
+{
+ "run_id": "mentalroberta__depsign__mask-topic+sui__s2024",
+ "model_name": "mental/mental-roberta-base",
+ "seed": 2024,
+ "best_epoch": 5,
+ "val_macro_f1": 0.6245235088985089,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.9482763318009064,
+   "val_macro_f1": 0.5626120011867676,
+   "seconds": 110.5
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.7543144591274809,
+   "val_macro_f1": 0.5844161690230205,
+   "seconds": 109.5
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.6237601852604274,
+   "val_macro_f1": 0.5989824879227054,
+   "seconds": 111.0
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.4747539969374899,
+   "val_macro_f1": 0.6194609310477939,
+   "seconds": 109.4
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.3296504963184274,
+   "val_macro_f1": 0.6245235088985089,
+   "seconds": 111.6
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.2404923433567718,
+   "val_macro_f1": 0.6182075220703195,
+   "seconds": 111.2
+  }
+ ],
+ "train_seconds": 682.1,
+ "eval_seconds": 61.3,
+ "peak_vram_gb": 3.75,
+ "class_weights": [
+  0.5763754844665527,
+  0.41907817125320435,
+  2.0045464038848877
+ ],
+ "n_train": 5853,
+ "kept_model": false
+}

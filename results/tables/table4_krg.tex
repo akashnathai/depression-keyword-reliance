@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering
+\caption{Keyword-reliance gap KRG $=$ F1(mask-random test) $-$ F1(mask-topic test), mean over seeds, with paired bootstrap 95\% CI (1{,}000 resamples shared across seeds and conditions). $^{*}$: CI excludes 0. Positive = the model loses more from removing topic words than from removing the same number of random words. Last column: F1 drop from random masking alone (DepSign/DSD-3 in-domain). Qwen-ZS has no training set, so its two RDC cells are the same run.}
+\label{tab:krg}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llccccc}
+\toprule
+Model & train cond. & DepSign$\to$DepSign & DepSign$\to$RDC & DSD-3$\to$DSD-3 & DSD-3$\to$RDC & rand.\ drop (in-dom.) \\
+\midrule
+TF-IDF+LR & orig & \shortstack{+0.027$^{*}$\\[-1pt]\tiny[+0.010, +0.046]} & \shortstack{+0.057$^{*}$\\[-1pt]\tiny[+0.052, +0.063]} & \shortstack{-0.002\\[-1pt]\tiny[-0.017, +0.013]} & \shortstack{+0.062$^{*}$\\[-1pt]\tiny[+0.057, +0.068]} & -0.002/+0.000 \\
+TF-IDF+LR & mask-topic & \shortstack{-0.002\\[-1pt]\tiny[-0.012, +0.008]} & \shortstack{-0.020$^{*}$\\[-1pt]\tiny[-0.024, -0.016]} & \shortstack{-0.006\\[-1pt]\tiny[-0.021, +0.002]} & \shortstack{-0.007$^{*}$\\[-1pt]\tiny[-0.010, -0.005]} & -0.020/-0.005 \\
+BERT & orig & \shortstack{+0.047$^{*}$\\[-1pt]\tiny[+0.032, +0.061]} & \shortstack{+0.031$^{*}$\\[-1pt]\tiny[+0.028, +0.034]} & \shortstack{+0.010$^{*}$\\[-1pt]\tiny[+0.001, +0.020]} & \shortstack{+0.046$^{*}$\\[-1pt]\tiny[+0.042, +0.050]} & +0.002/-0.002 \\
+BERT & mask-topic & \shortstack{+0.012$^{*}$\\[-1pt]\tiny[+0.004, +0.021]} & \shortstack{+0.010$^{*}$\\[-1pt]\tiny[+0.008, +0.012]} & \shortstack{+0.006\\[-1pt]\tiny[-0.001, +0.015]} & \shortstack{+0.030$^{*}$\\[-1pt]\tiny[+0.027, +0.034]} & -0.041/-0.010 \\
+RoBERTa & orig & \shortstack{+0.058$^{*}$\\[-1pt]\tiny[+0.042, +0.074]} & \shortstack{+0.024$^{*}$\\[-1pt]\tiny[+0.021, +0.027]} & \shortstack{+0.007\\[-1pt]\tiny[-0.001, +0.016]} & \shortstack{+0.050$^{*}$\\[-1pt]\tiny[+0.045, +0.055]} & +0.011/-0.000 \\
+RoBERTa & mask-topic & \shortstack{+0.005\\[-1pt]\tiny[-0.005, +0.015]} & \shortstack{+0.013$^{*}$\\[-1pt]\tiny[+0.010, +0.015]} & \shortstack{+0.004\\[-1pt]\tiny[-0.002, +0.011]} & \shortstack{+0.039$^{*}$\\[-1pt]\tiny[+0.035, +0.043]} & -0.018/-0.007 \\
+MentalBERT & orig & \shortstack{+0.035$^{*}$\\[-1pt]\tiny[+0.020, +0.050]} & \shortstack{+0.038$^{*}$\\[-1pt]\tiny[+0.034, +0.041]} & \shortstack{+0.009\\[-1pt]\tiny[-0.002, +0.021]} & \shortstack{+0.041$^{*}$\\[-1pt]\tiny[+0.036, +0.045]} & +0.002/+0.003 \\
+MentalBERT & mask-topic & \shortstack{+0.013$^{*}$\\[-1pt]\tiny[+0.002, +0.024]} & \shortstack{+0.025$^{*}$\\[-1pt]\tiny[+0.020, +0.029]} & \shortstack{+0.001\\[-1pt]\tiny[-0.008, +0.010]} & \shortstack{+0.030$^{*}$\\[-1pt]\tiny[+0.026, +0.034]} & -0.007/-0.003 \\
+MentalRoBERTa & orig & \shortstack{+0.037$^{*}$\\[-1pt]\tiny[+0.024, +0.050]} & \shortstack{+0.027$^{*}$\\[-1pt]\tiny[+0.025, +0.030]} & \shortstack{+0.007\\[-1pt]\tiny[-0.001, +0.016]} & \shortstack{+0.052$^{*}$\\[-1pt]\tiny[+0.048, +0.058]} & +0.001/-0.002 \\
+MentalRoBERTa & mask-topic & \shortstack{+0.001\\[-1pt]\tiny[-0.008, +0.008]} & \shortstack{+0.015$^{*}$\\[-1pt]\tiny[+0.012, +0.017]} & \shortstack{-0.004\\[-1pt]\tiny[-0.013, +0.005]} & \shortstack{+0.027$^{*}$\\[-1pt]\tiny[+0.023, +0.032]} & -0.006/-0.007 \\
+Qwen-ZS & orig & \shortstack{-0.005$^{*}$\\[-1pt]\tiny[-0.010, -0.001]} & \shortstack{+0.016$^{*}$\\[-1pt]\tiny[+0.013, +0.019]} & \shortstack{+0.004\\[-1pt]\tiny[-0.003, +0.012]} & \shortstack{+0.016$^{*}$\\[-1pt]\tiny[+0.013, +0.019]} & -- \\
+Qwen-FS (shots from train set) & orig & \shortstack{-0.005\\[-1pt]\tiny[-0.012, +0.002]} & \shortstack{+0.037$^{*}$\\[-1pt]\tiny[+0.032, +0.041]} & \shortstack{+0.003\\[-1pt]\tiny[-0.009, +0.014]} & \shortstack{+0.024$^{*}$\\[-1pt]\tiny[+0.020, +0.028]} & +0.003/+0.001 \\
+Qwen-QLoRA & orig & \shortstack{+0.036$^{*}$\\[-1pt]\tiny[+0.018, +0.054]} & \shortstack{+0.038$^{*}$\\[-1pt]\tiny[+0.034, +0.044]} & \shortstack{+0.001\\[-1pt]\tiny[-0.014, +0.016]} & \shortstack{+0.029$^{*}$\\[-1pt]\tiny[+0.025, +0.033]} & -0.004/+0.006 \\
+Qwen-QLoRA & mask-topic & \shortstack{-0.006\\[-1pt]\tiny[-0.016, +0.004]} & \shortstack{+0.018$^{*}$\\[-1pt]\tiny[+0.014, +0.023]} & \shortstack{+0.003\\[-1pt]\tiny[-0.009, +0.014]} & \shortstack{+0.031$^{*}$\\[-1pt]\tiny[+0.026, +0.035]} & +0.018/-0.002 \\
+\bottomrule
+\end{tabular}
+\end{table}

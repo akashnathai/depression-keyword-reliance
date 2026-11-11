@@ -1,0 +1,13 @@
+run_id,test_set,n,share_none,share_moderate,share_severe
+qwen-fs__depsign__orig__s13,depsign,3178,0.1152,0.1076,0.7772
+qwen-fs__depsign__orig__s13,dsl3,708,0.4082,0.1031,0.4887
+qwen-fs__depsign__orig__s13,dsl3m,708,0.4082,0.1031,0.4887
+qwen-fs__depsign__orig__s13,rdc,7248,0.5421,0.0513,0.4066
+qwen-fs__dsl3__orig__s13,depsign,3178,0.0957,0.1639,0.7404
+qwen-fs__dsl3__orig__s13,dsl3,708,0.2994,0.2782,0.4223
+qwen-fs__dsl3__orig__s13,dsl3m,708,0.2994,0.2782,0.4223
+qwen-fs__dsl3__orig__s13,rdc,7248,0.4892,0.1126,0.3982
+qwen-zs__none__orig__s13,depsign,3178,0.0160,0.3433,0.6407
+qwen-zs__none__orig__s13,dsl3,708,0.0494,0.6003,0.3503
+qwen-zs__none__orig__s13,dsl3m,708,0.0494,0.6003,0.3503
+qwen-zs__none__orig__s13,rdc,7248,0.2321,0.3920,0.3760

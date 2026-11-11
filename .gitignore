@@ -1,0 +1,12 @@
+# Datasets and model weights are never committed
+data/
+models/
+logs/
+results/preds/
+results/xai/
+results/runs/*/checkpoints/
+results/runs/*/best_model/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

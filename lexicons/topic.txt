@@ -1,0 +1,45 @@
+# TOPIC lexicon: words that NAME depression, its diagnosis or its treatment.
+# These are the suspected shortcuts. Masked in mask-topic and mask-topic+sui.
+# '*' = suffix wildcard. Matching: case-insensitive, word boundaries, longest phrase first.
+
+## the condition itself
+depress*            # depressed, depression, depressive, depressing
+major depressive
+mdd
+dysthymi*
+## antidepressants (class names)
+antidepress*
+anti-depress*
+ssri*
+snri*
+## common antidepressants (generic / brand)
+sertraline
+zoloft
+fluoxetine
+prozac
+escitalopram
+lexapro
+citalopram
+celexa
+paroxetine
+paxil
+venlafaxine
+effexor
+duloxetine
+cymbalta
+bupropion
+wellbutrin
+mirtazapine
+remeron
+trazodone
+## care and diagnosis
+therap*             # therapy, therapist, therapists
+psychiatr*          # psychiatrist, psychiatric
+psychologist*
+counsel*            # counselor, counselling
+mental health
+mental illness*
+mentally ill
+diagnos*            # diagnosed, diagnosis
+meds
+medication*

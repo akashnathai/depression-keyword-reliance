@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{In-domain macro-F1 on the unmasked test set for every model and training condition. Mean $\pm$ s.d.\ over seeds; below: mean bootstrap 95\% CI. Bold: best training condition per row and train set.}
+\label{tab:indomain}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccccccc}
+\toprule
+ & \multicolumn{4}{c}{train DepSign} & \multicolumn{4}{c}{train DSD-3} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+Model & orig & m-topic & m-t+sui & m-random & orig & m-topic & m-t+sui & m-random \\
+\midrule
+TF-IDF+LR & \shortstack{0.504$\pm$0.000\\[-1pt]\tiny[0.482, 0.524]} & \shortstack{0.477$\pm$0.000\\[-1pt]\tiny[0.453, 0.500]} & \shortstack{0.464$\pm$0.000\\[-1pt]\tiny[0.439, 0.486]} & \shortstack{\textbf{0.520}$\pm$0.000\\[-1pt]\tiny[0.497, 0.540]} & \shortstack{\textbf{0.572}$\pm$0.000\\[-1pt]\tiny[0.520, 0.619]} & \shortstack{0.571$\pm$0.000\\[-1pt]\tiny[0.514, 0.620]} & \shortstack{0.560$\pm$0.000\\[-1pt]\tiny[0.509, 0.607]} & \shortstack{0.572$\pm$0.000\\[-1pt]\tiny[0.518, 0.623]} \\
+BERT & \shortstack{\textbf{0.525}$\pm$0.018\\[-1pt]\tiny[0.503, 0.546]} & \shortstack{0.496$\pm$0.052\\[-1pt]\tiny[0.472, 0.518]} & \shortstack{0.520$\pm$0.021\\[-1pt]\tiny[0.497, 0.543]} & \shortstack{0.513$\pm$0.047\\[-1pt]\tiny[0.489, 0.535]} & \shortstack{\textbf{0.612}$\pm$0.015\\[-1pt]\tiny[0.563, 0.662]} & \shortstack{0.595$\pm$0.015\\[-1pt]\tiny[0.548, 0.644]} & \shortstack{0.603$\pm$0.026\\[-1pt]\tiny[0.555, 0.652]} & \shortstack{0.610$\pm$0.006\\[-1pt]\tiny[0.561, 0.660]} \\
+RoBERTa & \shortstack{0.529$\pm$0.022\\[-1pt]\tiny[0.506, 0.552]} & \shortstack{0.524$\pm$0.032\\[-1pt]\tiny[0.501, 0.547]} & \shortstack{0.536$\pm$0.013\\[-1pt]\tiny[0.512, 0.557]} & \shortstack{\textbf{0.550}$\pm$0.010\\[-1pt]\tiny[0.528, 0.571]} & \shortstack{\textbf{0.631}$\pm$0.016\\[-1pt]\tiny[0.584, 0.675]} & \shortstack{0.607$\pm$0.021\\[-1pt]\tiny[0.560, 0.652]} & \shortstack{0.612$\pm$0.030\\[-1pt]\tiny[0.566, 0.654]} & \shortstack{0.628$\pm$0.010\\[-1pt]\tiny[0.582, 0.674]} \\
+MentalBERT & \shortstack{0.539$\pm$0.008\\[-1pt]\tiny[0.518, 0.559]} & \shortstack{0.533$\pm$0.003\\[-1pt]\tiny[0.510, 0.555]} & \shortstack{0.534$\pm$0.013\\[-1pt]\tiny[0.512, 0.556]} & \shortstack{\textbf{0.546}$\pm$0.013\\[-1pt]\tiny[0.525, 0.567]} & \shortstack{\textbf{0.617}$\pm$0.007\\[-1pt]\tiny[0.569, 0.664]} & \shortstack{0.604$\pm$0.004\\[-1pt]\tiny[0.557, 0.650]} & \shortstack{0.598$\pm$0.008\\[-1pt]\tiny[0.550, 0.644]} & \shortstack{0.612$\pm$0.019\\[-1pt]\tiny[0.563, 0.660]} \\
+MentalRoBERTa & \shortstack{0.557$\pm$0.003\\[-1pt]\tiny[0.536, 0.578]} & \shortstack{0.548$\pm$0.031\\[-1pt]\tiny[0.525, 0.570]} & \shortstack{0.545$\pm$0.009\\[-1pt]\tiny[0.521, 0.567]} & \shortstack{\textbf{0.565}$\pm$0.006\\[-1pt]\tiny[0.542, 0.586]} & \shortstack{0.615$\pm$0.006\\[-1pt]\tiny[0.566, 0.661]} & \shortstack{0.634$\pm$0.012\\[-1pt]\tiny[0.586, 0.679]} & \shortstack{0.608$\pm$0.030\\[-1pt]\tiny[0.561, 0.653]} & \shortstack{\textbf{0.637}$\pm$0.017\\[-1pt]\tiny[0.589, 0.683]} \\
+Qwen-QLoRA & \shortstack{0.546\\[-1pt]\tiny[0.523, 0.566]} & \shortstack{\textbf{0.549}\\[-1pt]\tiny[0.526, 0.570]} & -- & -- & \shortstack{\textbf{0.569}\\[-1pt]\tiny[0.521, 0.616]} & \shortstack{0.568\\[-1pt]\tiny[0.519, 0.613]} & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

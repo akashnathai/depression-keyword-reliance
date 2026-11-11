@@ -1,0 +1,66 @@
+{
+ "run_id": "tfidf-lr__depsign__mask-topic+sui__s13",
+ "C": 10.0,
+ "val_macro_f1": 0.5773364079106349,
+ "val_scores": {
+  "0.3": 0.5664583491369223,
+  "1.0": 0.5769476595507353,
+  "3.0": 0.574550038765592,
+  "10.0": 0.5773364079106349
+ },
+ "fit_seconds": 25.9,
+ "total_seconds": 56.5,
+ "top_features": {
+  "0": [
+   "of myself",
+   "on my",
+   "or just",
+   "url",
+   "my school",
+   "much of",
+   "in this",
+   "happy new",
+   "my friend",
+   "year old",
+   "we",
+   "you have",
+   "best",
+   "to me",
+   "her but"
+  ],
+  "1": [
+   "to sleep",
+   "new years",
+   "this year",
+   "this shit",
+   "fun",
+   "to kw",
+   "like doing",
+   "to do",
+   "abuse",
+   "kw in",
+   "hate my",
+   "do with",
+   "in my",
+   "violently",
+   " i "
+  ],
+  "2": [
+   "kw",
+   "kw and",
+   "my kw",
+   "on kw",
+   "kw with",
+   "kw for",
+   "[kw] ",
+   "kw] ",
+   "w] ",
+   "kw kw",
+   " [kw",
+   " [kw]",
+   " [k",
+   "[kw",
+   "kw]"
+  ]
+ }
+}

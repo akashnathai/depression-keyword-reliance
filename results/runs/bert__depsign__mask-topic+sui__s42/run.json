@@ -1,0 +1,49 @@
+{
+ "run_id": "bert__depsign__mask-topic+sui__s42",
+ "model_name": "bert-base-uncased",
+ "seed": 42,
+ "best_epoch": 3,
+ "val_macro_f1": 0.610178600154429,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.9730993050450836,
+   "val_macro_f1": 0.5866243339670572,
+   "seconds": 107.0
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.8148117307675341,
+   "val_macro_f1": 0.6093316063391585,
+   "seconds": 106.6
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.657957759833401,
+   "val_macro_f1": 0.610178600154429,
+   "seconds": 106.3
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.49456393725844355,
+   "val_macro_f1": 0.575872567217061,
+   "seconds": 106.8
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.3351592972996782,
+   "val_macro_f1": 0.5860270709499321,
+   "seconds": 105.9
+  }
+ ],
+ "train_seconds": 545.0,
+ "eval_seconds": 64.9,
+ "peak_vram_gb": 3.53,
+ "class_weights": [
+  0.5763754844665527,
+  0.41907817125320435,
+  2.0045464038848877
+ ],
+ "n_train": 5853,
+ "kept_model": false
+}

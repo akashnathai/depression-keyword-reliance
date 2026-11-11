@@ -1,0 +1,37 @@
+{
+ "run_id": "mentalroberta__depsign__mask-random__s2024",
+ "model_name": "mental/mental-roberta-base",
+ "seed": 2024,
+ "best_epoch": 1,
+ "val_macro_f1": 0.5941817075050642,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.9434287183882435,
+   "val_macro_f1": 0.5941817075050642,
+   "seconds": 110.5
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.7590040963326321,
+   "val_macro_f1": 0.5675516505467652,
+   "seconds": 109.8
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.6257356574219433,
+   "val_macro_f1": 0.5827407651792677,
+   "seconds": 111.2
+  }
+ ],
+ "train_seconds": 342.1,
+ "eval_seconds": 61.7,
+ "peak_vram_gb": 3.76,
+ "class_weights": [
+  0.5763754844665527,
+  0.41907817125320435,
+  2.0045464038848877
+ ],
+ "n_train": 5853,
+ "kept_model": false
+}

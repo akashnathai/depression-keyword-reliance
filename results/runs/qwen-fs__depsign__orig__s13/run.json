@@ -1,0 +1,112 @@
+{
+ "run_id": "qwen-fs__depsign__orig__s13",
+ "n_shots": 5,
+ "shot_labels": [
+  0,
+  0,
+  1,
+  2,
+  1
+ ],
+ "stats": [
+  {
+   "test_set": "depsign",
+   "test_cond": "mask-topic+sui",
+   "n": 3178,
+   "unparseable_rate": 0.0,
+   "seconds": 460.7
+  },
+  {
+   "test_set": "depsign",
+   "test_cond": "mask-random",
+   "n": 3178,
+   "unparseable_rate": 0.0,
+   "seconds": 265.8
+  },
+  {
+   "test_set": "dsl3",
+   "test_cond": "orig",
+   "n": 708,
+   "unparseable_rate": 0.0,
+   "seconds": 96.5
+  },
+  {
+   "test_set": "dsl3",
+   "test_cond": "mask-topic",
+   "n": 708,
+   "unparseable_rate": 0.0,
+   "seconds": 14.2
+  },
+  {
+   "test_set": "dsl3",
+   "test_cond": "mask-topic+sui",
+   "n": 708,
+   "unparseable_rate": 0.0,
+   "seconds": 2.3
+  },
+  {
+   "test_set": "dsl3",
+   "test_cond": "mask-random",
+   "n": 708,
+   "unparseable_rate": 0.0,
+   "seconds": 13.9
+  },
+  {
+   "test_set": "dsl3m",
+   "test_cond": "orig",
+   "n": 708,
+   "unparseable_rate": 0.0,
+   "seconds": 0.0
+  },
+  {
+   "test_set": "dsl3m",
+   "test_cond": "mask-topic",
+   "n": 708,
+   "unparseable_rate": 0.0,
+   "seconds": 0.0
+  },
+  {
+   "test_set": "dsl3m",
+   "test_cond": "mask-topic+sui",
+   "n": 708,
+   "unparseable_rate": 0.0,
+   "seconds": 0.0
+  },
+  {
+   "test_set": "dsl3m",
+   "test_cond": "mask-random",
+   "n": 708,
+   "unparseable_rate": 0.0,
+   "seconds": 0.0
+  },
+  {
+   "test_set": "rdc",
+   "test_cond": "orig",
+   "n": 7248,
+   "unparseable_rate": 0.0,
+   "seconds": 1013.1
+  },
+  {
+   "test_set": "rdc",
+   "test_cond": "mask-topic",
+   "n": 7248,
+   "unparseable_rate": 0.0,
+   "seconds": 253.7
+  },
+  {
+   "test_set": "rdc",
+   "test_cond": "mask-topic+sui",
+   "n": 7248,
+   "unparseable_rate": 0.0,
+   "seconds": 85.9
+  },
+  {
+   "test_set": "rdc",
+   "test_cond": "mask-random",
+   "n": 7248,
+   "unparseable_rate": 0.0,
+   "seconds": 253.1
+  }
+ ],
+ "seconds": 2459.2
+}

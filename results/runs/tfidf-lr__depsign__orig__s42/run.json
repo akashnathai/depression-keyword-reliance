@@ -1,0 +1,66 @@
+{
+ "run_id": "tfidf-lr__depsign__orig__s42",
+ "C": 1.0,
+ "val_macro_f1": 0.5722546626382441,
+ "val_scores": {
+  "0.3": 0.5711163704682374,
+  "1.0": 0.5722546626382441,
+  "3.0": 0.5680470440988709,
+  "10.0": 0.5667158723127503
+ },
+ "fit_seconds": 27.3,
+ "total_seconds": 54.7,
+ "top_features": {
+  "0": [
+   "url",
+   "we",
+   "of myself",
+   "her",
+   "she",
+   "best",
+   "on my",
+   "or just",
+   "good",
+   "you have",
+   "year old",
+   "she",
+   "in this",
+   "stuff",
+   "url"
+  ],
+  "1": [
+   "new years",
+   "to sleep",
+   "this year",
+   "to do",
+   "see",
+   "idk",
+   "new",
+   "this shit",
+   "abuse",
+   "fun",
+   "in my",
+   " me. ",
+   " me.",
+   "new year",
+   "head"
+  ],
+  "2": [
+   "medication",
+   "diagnosed",
+   " med",
+   "meds",
+   "die want",
+   "prozac",
+   "depression and",
+   "med",
+   "edic",
+   "medic",
+   "therapy",
+   "cruel",
+   "diagnosed with",
+   "dicat",
+   "mg "
+  ]
+ }
+}

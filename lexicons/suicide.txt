@@ -1,0 +1,27 @@
+# SUICIDE / SELF-HARM lexicon: explicit terms. Masked only in mask-topic+sui.
+suicid*             # suicide, suicidal
+kill myself
+killing myself
+end my life
+ending my life
+take my life
+take my own life
+end it all
+want to die
+wanna die
+want to be dead
+better off dead
+kms
+unalive
+self harm*
+self-harm*
+selfharm*
+cut myself
+cutting myself
+hang myself
+overdos*
+slit my wrist*
+don't want to live
+do not want to live
+no reason to live
+don't want to be alive

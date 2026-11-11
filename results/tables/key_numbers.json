@@ -1,0 +1,25 @@
+{
+ "n_master_rows": 2032,
+ "models": [
+  "bert",
+  "mentalbert",
+  "mentalroberta",
+  "qwen-fs",
+  "qwen-qlora",
+  "qwen-zs",
+  "roberta",
+  "tfidf-lr"
+ ],
+ "mcnemar": [
+  {
+   "family": "mask-random_vs_mask-topic",
+   "n": 80,
+   "n_sig": 29
+  },
+  {
+   "family": "orig_vs_mask-topic",
+   "n": 96,
+   "n_sig": 37
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "run_id": "tfidf-lr__depsign__mask-random__s42",
+ "C": 0.3,
+ "val_macro_f1": 0.5792181079749108,
+ "val_scores": {
+  "0.3": 0.5792181079749108,
+  "1.0": 0.5753132980375951,
+  "3.0": 0.5710490826607816,
+  "10.0": 0.5790136784495786
+ },
+ "fit_seconds": 29.5,
+ "total_seconds": 59.5,
+ "top_features": {
+  "0": [
+   "url",
+   "we",
+   "you",
+   " yo",
+   " you",
+   "her",
+   "you",
+   "she",
+   "good",
+   "best",
+   "does anyone",
+   "anyone else",
+   "she",
+   "url",
+   " [u"
+  ],
+  "1": [
+   "new years",
+   "new",
+   "see",
+   "to sleep",
+   "to do",
+   "new year",
+   "idk",
+   "depressed",
+   "me",
+   " me. ",
+   "no",
+   " me.",
+   "new ",
+   "this year",
+   ".. "
+  ],
+  "2": [
+   "kw",
+   " [kw]",
+   " [kw",
+   " [k",
+   "[kw",
+   "[kw]",
+   "kw]",
+   "medication",
+   "[kw] ",
+   "kw] ",
+   "w] ",
+   " med",
+   "diagnosed",
+   "anxiety",
+   "meds"
+  ]
+ }
+}

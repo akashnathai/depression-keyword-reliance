@@ -1,0 +1,10 @@
+{
+ "train_rows_raw": 8891,
+ "train_distinct_texts_raw": 2720,
+ "test_rows_raw": 3245,
+ "test_removed_short": 44,
+ "test_after_cleaning": 3201,
+ "test_final": 3178,
+ "test_removed_total": 67,
+ "test_removed_duplicates": 23
+}

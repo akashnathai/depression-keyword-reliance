@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Keyword prevalence by class: \% of posts with at least one masked span and \% of word tokens masked (all splits pooled). mask-random masks the same number of tokens per post as mask-topic.}
+\label{tab:prevalence}
+\begin{tabular}{llrrrrr}
+\toprule
+ & & & \multicolumn{2}{c}{mask-topic} & \multicolumn{2}{c}{mask-topic+sui} \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Data & Class & $N$ & posts \% & tokens \% & posts \% & tokens \% \\
+\midrule
+depsign & not depression & 3,346 & 32.5 & 0.58 & 39.4 & 0.85 \\
+depsign & moderate & 5,598 & 47.3 & 0.67 & 61.5 & 1.15 \\
+depsign & severe & 927 & 85.9 & 1.46 & 92.2 & 2.29 \\
+dsl3 & minimum & 2,558 & 12.4 & 0.26 & 13.4 & 0.28 \\
+dsl3 & mild+moderate & 682 & 30.8 & 0.69 & 32.0 & 0.74 \\
+dsl3 & severe & 281 & 21.7 & 0.42 & 31.0 & 0.77 \\
+rdc & not depressed & 3,587 & 0.5 & 0.04 & 0.6 & 0.05 \\
+rdc & depressed & 3,661 & 51.4 & 0.71 & 60.6 & 1.11 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,43 @@
+\begin{table}[t]
+\centering
+\caption{Cross-dataset macro-F1 (unmasked test sets, mean over seeds). RDC is binary (P(moderate)+P(severe) vs.\ P(none)). $\Delta_3$: in-domain $-$ 3-class cross-dataset F1. $\Delta_{\mathrm{RDC}}$: binary-collapsed in-domain F1 $-$ RDC F1 (both binary, so the drop is like-for-like). Lower $\Delta$ = better transfer.}
+\label{tab:cross}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llcccccccccc}
+\toprule
+ & & \multicolumn{5}{c}{train DepSign} & \multicolumn{5}{c}{train DSD-3} \\
+\cmidrule(lr){3-7}\cmidrule(lr){8-12}
+Model & train cond. & in-dom. & $\to$DSD-3 & $\to$RDC & $\Delta_3$ & $\Delta_{\mathrm{RDC}}$ & in-dom. & $\to$DepSign & $\to$RDC & $\Delta_3$ & $\Delta_{\mathrm{RDC}}$ \\
+\midrule
+TF-IDF+LR & orig & 0.504 & 0.420 & 0.780 & 0.084 & -0.152 & 0.572 & 0.340 & 0.817 & 0.233 & -0.153 \\
+ & mask-topic & 0.477 & 0.411 & 0.663 & 0.066 & -0.081 & 0.571 & 0.329 & 0.756 & 0.242 & -0.047 \\
+ & mask-topic+sui & 0.464 & 0.397 & 0.648 & 0.067 & -0.078 & 0.560 & 0.328 & 0.750 & 0.232 & -0.083 \\
+ & mask-random & 0.520 & 0.430 & 0.795 & 0.090 & -0.170 & 0.572 & 0.343 & 0.801 & 0.229 & -0.077 \\
+\addlinespace[2pt]
+BERT & orig & 0.525 & 0.441 & 0.746 & 0.084 & -0.120 & 0.612 & 0.336 & 0.790 & 0.276 & -0.036 \\
+ & mask-topic & 0.496 & 0.437 & 0.739 & 0.058 & -0.112 & 0.595 & 0.322 & 0.779 & 0.274 & -0.031 \\
+ & mask-topic+sui & 0.520 & 0.419 & 0.693 & 0.101 & -0.078 & 0.603 & 0.346 & 0.758 & 0.256 & 0.001 \\
+ & mask-random & 0.513 & 0.432 & 0.702 & 0.081 & -0.083 & 0.610 & 0.337 & 0.781 & 0.273 & -0.028 \\
+\addlinespace[2pt]
+RoBERTa & orig & 0.529 & 0.419 & 0.699 & 0.110 & -0.087 & 0.631 & 0.325 & 0.820 & 0.306 & -0.056 \\
+ & mask-topic & 0.524 & 0.432 & 0.704 & 0.092 & -0.075 & 0.607 & 0.306 & 0.810 & 0.301 & -0.058 \\
+ & mask-topic+sui & 0.536 & 0.448 & 0.711 & 0.087 & -0.087 & 0.612 & 0.315 & 0.796 & 0.297 & -0.045 \\
+ & mask-random & 0.550 & 0.440 & 0.725 & 0.110 & -0.087 & 0.628 & 0.330 & 0.813 & 0.299 & -0.049 \\
+\addlinespace[2pt]
+MentalBERT & orig & 0.539 & 0.426 & 0.727 & 0.113 & -0.090 & 0.617 & 0.326 & 0.798 & 0.291 & -0.039 \\
+ & mask-topic & 0.533 & 0.439 & 0.676 & 0.094 & -0.057 & 0.604 & 0.311 & 0.787 & 0.293 & -0.037 \\
+ & mask-topic+sui & 0.534 & 0.424 & 0.685 & 0.110 & -0.060 & 0.598 & 0.307 & 0.776 & 0.291 & -0.021 \\
+ & mask-random & 0.546 & 0.434 & 0.762 & 0.112 & -0.118 & 0.612 & 0.326 & 0.800 & 0.287 & -0.038 \\
+\addlinespace[2pt]
+MentalRoBERTa & orig & 0.557 & 0.431 & 0.738 & 0.127 & -0.091 & 0.615 & 0.310 & 0.805 & 0.305 & -0.042 \\
+ & mask-topic & 0.548 & 0.448 & 0.738 & 0.101 & -0.093 & 0.634 & 0.317 & 0.790 & 0.318 & -0.021 \\
+ & mask-topic+sui & 0.545 & 0.431 & 0.695 & 0.114 & -0.064 & 0.608 & 0.297 & 0.775 & 0.311 & -0.012 \\
+ & mask-random & 0.565 & 0.444 & 0.746 & 0.121 & -0.102 & 0.637 & 0.312 & 0.805 & 0.326 & -0.034 \\
+\addlinespace[2pt]
+Qwen-QLoRA & orig & 0.546 & 0.428 & 0.739 & 0.118 & -0.108 & 0.569 & 0.320 & 0.815 & 0.249 & -0.096 \\
+ & mask-topic & 0.549 & 0.420 & 0.768 & 0.130 & -0.138 & 0.568 & 0.293 & 0.800 & 0.275 & -0.068 \\
+\addlinespace[2pt]
+\bottomrule
+\end{tabular}
+\end{table}

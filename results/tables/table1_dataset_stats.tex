@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Dataset statistics after cleaning and deduplication. Class 0 = none/minimal, 1 = moderate (dsl3: mild+moderate), 2 = severe; rdc is binary.}
+\label{tab:data}
+\begin{tabular}{llrrrrr}
+\toprule
+Mapping & Split & $N$ & Class 0 & Class 1 & Class 2 & Mean words \\
+\midrule
+depsign & train & 5,853 & 2,198 & 3,023 & 632 & 166 \\
+depsign & dev & 840 & 336 & 436 & 68 & 172 \\
+depsign & test & 3,178 & 812 & 2,139 & 227 & 170 \\
+dsl3 & train & 2,458 & 1,784 & 477 & 197 & 86 \\
+dsl3 & dev & 355 & 258 & 69 & 28 & 85 \\
+dsl3 & test & 708 & 516 & 136 & 56 & 85 \\
+dsl3m & train & 2,458 & 1,987 & 274 & 197 & 86 \\
+dsl3m & dev & 355 & 287 & 40 & 28 & 85 \\
+dsl3m & test & 708 & 574 & 78 & 56 & 85 \\
+rdc & test & 7,248 & 3,587 & 3,661 & -- & 77 \\
+\bottomrule
+\end{tabular}
+\end{table}

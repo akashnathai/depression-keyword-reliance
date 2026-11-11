@@ -1,0 +1,5 @@
+train_test_set,condition,macro_f1_count_only,ci_lo,ci_hi,dummy_stratified_mean,dummy_uniform_mean,share_posts_with_kw_test
+depsign,mask-topic,0.3589,0.3420,0.3763,0.3253,0.2844,0.4648
+depsign,mask-topic+sui,0.3379,0.3203,0.3550,0.3253,0.2844,0.5878
+dsl3,mask-topic,0.3867,0.3589,0.4139,0.3329,0.2766,0.1653
+dsl3,mask-topic+sui,0.3851,0.3577,0.4126,0.3329,0.2766,0.1836

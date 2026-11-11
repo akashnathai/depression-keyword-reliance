@@ -1,0 +1,49 @@
+{
+ "run_id": "roberta__dsl3__orig__s2024",
+ "model_name": "roberta-base",
+ "seed": 2024,
+ "best_epoch": 3,
+ "val_macro_f1": 0.6298015560800769,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 1.0271281141352344,
+   "val_macro_f1": 0.42223293642731674,
+   "seconds": 24.2
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.8305460504171523,
+   "val_macro_f1": 0.5373819163292847,
+   "seconds": 24.5
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.6219572244671645,
+   "val_macro_f1": 0.6298015560800769,
+   "seconds": 24.3
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.4619418709575162,
+   "val_macro_f1": 0.5982312274480528,
+   "seconds": 23.8
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.30547285235982824,
+   "val_macro_f1": 0.5950806984930058,
+   "seconds": 24.3
+  }
+ ],
+ "train_seconds": 140.5,
+ "eval_seconds": 60.5,
+ "peak_vram_gb": 3.23,
+ "class_weights": [
+  0.21745623648166656,
+  0.8132954239845276,
+  1.9692482948303223
+ ],
+ "n_train": 2458,
+ "kept_model": false
+}

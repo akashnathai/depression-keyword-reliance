@@ -1,0 +1,30 @@
+# Qwen2.5-1.5B: QLoRA and prompting
+models:
+  qwen-qlora: Qwen/Qwen2.5-1.5B-Instruct
+llm_name: Qwen/Qwen2.5-1.5B-Instruct
+# --- QLoRA classification (shares the encoder training loop) ---
+max_len: 512
+head_tokens: 128
+lr: 2.0e-4
+weight_decay: 0.0
+warmup_ratio: 0.05
+batch_size: 4
+grad_accum: 4            # effective batch 16
+eval_batch_size: 16
+max_epochs: 3
+patience: 2
+fp16: true
+qlora: {r: 16, alpha: 32, dropout: 0.05, grad_ckpt: true,
+        targets: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]}
+qlora_train_sets: [depsign, dsl3]
+qlora_conditions: [orig, mask-topic]
+keep_models: []
+# --- prompting ---
+prompt_max_words: 400
+shot_max_words: 150
+shots: {0: 2, 1: 2, 2: 1}     # 5-shot, per class
+prompt_batch_size: {zs: 16, fs: 6}
+max_new_tokens: 8
+prompt_seed: 13
+vram_fraction: 0.70        # cap PyTorch VRAM so Windows does not spill to shared RAM (other apps use ~1 GB)
+prompt_token_budget: 8192  # max padded tokens per prompting batch

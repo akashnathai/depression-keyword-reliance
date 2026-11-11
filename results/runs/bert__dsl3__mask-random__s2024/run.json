@@ -1,0 +1,55 @@
+{
+ "run_id": "bert__dsl3__mask-random__s2024",
+ "model_name": "bert-base-uncased",
+ "seed": 2024,
+ "best_epoch": 6,
+ "val_macro_f1": 0.5860271233287455,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 1.0201624002936598,
+   "val_macro_f1": 0.40555250378610147,
+   "seconds": 23.2
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.7980646374937775,
+   "val_macro_f1": 0.5317503749680831,
+   "seconds": 22.8
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.5659606148089681,
+   "val_macro_f1": 0.5623707426895992,
+   "seconds": 23.0
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.37057670461038106,
+   "val_macro_f1": 0.5837542087542087,
+   "seconds": 23.0
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.20474832625333944,
+   "val_macro_f1": 0.5824888532894779,
+   "seconds": 23.0
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.12300974722987935,
+   "val_macro_f1": 0.5860271233287455,
+   "seconds": 23.2
+  }
+ ],
+ "train_seconds": 156.7,
+ "eval_seconds": 65.3,
+ "peak_vram_gb": 3.08,
+ "class_weights": [
+  0.21745623648166656,
+  0.8132954239845276,
+  1.9692482948303223
+ ],
+ "n_train": 2458,
+ "kept_model": false
+}

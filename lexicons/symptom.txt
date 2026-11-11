@@ -1,0 +1,77 @@
+# SYMPTOM lexicon: PHQ-9 / DSM-5 symptom language that does NOT name the disorder.
+# NEVER masked. Used only for the attribution-mass analysis (topic / symptom / other).
+# For that analysis, suicide.txt terms are counted as symptom (PHQ-9 item 9).
+
+## 1 anhedonia (loss of interest or pleasure)
+lost interest
+lose interest
+no interest
+no motivation
+unmotivated
+nothing to look forward to
+don't enjoy
+can't enjoy
+pointless
+no point
+numb
+empty
+emptiness
+## 2 depressed mood / hopelessness
+sad
+sadness
+hopeless*
+despair
+miserable
+cry
+crying
+cried
+tears
+feel nothing
+## 3 sleep
+sleep*
+insomnia
+oversleep*
+can't sleep
+awake all night
+stay in bed
+## 4 energy
+tired
+exhausted
+exhaustion
+fatigue*
+no energy
+drained
+lethargic
+## 5 appetite / weight
+appetite
+not eating
+stopped eating
+can't eat
+overeat*
+binge eat*
+lost weight
+gained weight
+weight loss
+weight gain
+## 6 worthlessness / guilt
+worthless*
+useless
+guilt*
+failure
+burden
+hate myself
+self hatred
+self-loathing
+not good enough
+ashamed
+## 7 concentration / decisions
+concentrat*
+can't focus
+cannot focus
+can't think
+brain fog
+indecisive
+## 8 psychomotor
+restless*
+slowed down
+agitat*

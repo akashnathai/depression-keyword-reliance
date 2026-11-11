@@ -1,0 +1,55 @@
+{
+ "run_id": "bert__dsl3__orig__s42",
+ "model_name": "bert-base-uncased",
+ "seed": 42,
+ "best_epoch": 4,
+ "val_macro_f1": 0.5526891721117443,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 1.0261958237592277,
+   "val_macro_f1": 0.46488646169485914,
+   "seconds": 23.2
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.8249587748780266,
+   "val_macro_f1": 0.5218826698750939,
+   "seconds": 23.3
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.5897471979986151,
+   "val_macro_f1": 0.5299076388328988,
+   "seconds": 23.0
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.34572969113972474,
+   "val_macro_f1": 0.5526891721117443,
+   "seconds": 23.1
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.1896314703430013,
+   "val_macro_f1": 0.5233519079106592,
+   "seconds": 23.2
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.11520527017320954,
+   "val_macro_f1": 0.5384023046294851,
+   "seconds": 23.2
+  }
+ ],
+ "train_seconds": 156.1,
+ "eval_seconds": 65.3,
+ "peak_vram_gb": 3.08,
+ "class_weights": [
+  0.21745623648166656,
+  0.8132954239845276,
+  1.9692482948303223
+ ],
+ "n_train": 2458,
+ "kept_model": false
+}

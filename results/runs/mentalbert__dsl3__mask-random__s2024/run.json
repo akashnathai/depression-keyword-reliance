@@ -1,0 +1,55 @@
+{
+ "run_id": "mentalbert__dsl3__mask-random__s2024",
+ "model_name": "mental/mental-bert-base-uncased",
+ "seed": 2024,
+ "best_epoch": 4,
+ "val_macro_f1": 0.5985465985465986,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.9647606727364776,
+   "val_macro_f1": 0.45996370280461596,
+   "seconds": 23.3
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.7329090491130754,
+   "val_macro_f1": 0.5768763571726722,
+   "seconds": 23.0
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.4876644979049633,
+   "val_macro_f1": 0.5739005145797599,
+   "seconds": 22.8
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.3128166162505649,
+   "val_macro_f1": 0.5985465985465986,
+   "seconds": 23.3
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.17600725714250334,
+   "val_macro_f1": 0.5899954576425165,
+   "seconds": 22.7
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.12098685152792409,
+   "val_macro_f1": 0.5930228941147194,
+   "seconds": 23.0
+  }
+ ],
+ "train_seconds": 156.8,
+ "eval_seconds": 65.4,
+ "peak_vram_gb": 3.08,
+ "class_weights": [
+  0.21745623648166656,
+  0.8132954239845276,
+  1.9692482948303223
+ ],
+ "n_train": 2458,
+ "kept_model": false
+}

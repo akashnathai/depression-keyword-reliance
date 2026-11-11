@@ -1,0 +1,37 @@
+{
+ "run_id": "qwen-qlora__depsign__orig__s13",
+ "model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+ "seed": 13,
+ "best_epoch": 3,
+ "val_macro_f1": 0.6325693862553484,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.9985322837865418,
+   "val_macro_f1": 0.6237851519346674,
+   "seconds": 1625.5
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.7051274132064945,
+   "val_macro_f1": 0.6242025036394467,
+   "seconds": 1642.8
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.35139282441286424,
+   "val_macro_f1": 0.6325693862553484,
+   "seconds": 1611.2
+  }
+ ],
+ "train_seconds": 4892.6,
+ "eval_seconds": 1367.8,
+ "peak_vram_gb": 3.36,
+ "class_weights": [
+  0.5763754844665527,
+  0.41907817125320435,
+  2.0045464038848877
+ ],
+ "n_train": 5853,
+ "kept_model": false
+}

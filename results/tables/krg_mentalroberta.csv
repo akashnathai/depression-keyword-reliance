@@ -1,0 +1,9 @@
+model,train_set,test_set,mask-random,mask-topic,mask-topic+sui,orig,drop_topic,drop_topic_sui,drop_random,KRG
+mentalroberta,depsign,depsign,0.5565,0.5194,0.4967,0.5574,0.0380,0.0607,0.0008,0.0372
+mentalroberta,depsign,dsl3,0.4280,0.4248,0.4255,0.4308,0.0060,0.0054,0.0028,0.0032
+mentalroberta,depsign,dsl3m,0.3948,0.3961,0.3962,0.3964,0.0003,0.0001,0.0015,-0.0012
+mentalroberta,depsign,rdc,0.7283,0.7009,0.6871,0.7379,0.0369,0.0507,0.0096,0.0274
+mentalroberta,dsl3,depsign,0.3115,0.3030,0.3147,0.3100,0.0070,-0.0047,-0.0015,0.0085
+mentalroberta,dsl3,dsl3,0.6169,0.6099,0.5817,0.6152,0.0052,0.0335,-0.0018,0.0070
+mentalroberta,dsl3,dsl3m,0.5799,0.5816,0.5536,0.5774,-0.0042,0.0238,-0.0024,-0.0018
+mentalroberta,dsl3,rdc,0.7929,0.7404,0.7328,0.8054,0.0650,0.0727,0.0125,0.0525
